@@ -46,6 +46,18 @@
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
         {% endif %}
+          <span class="site-footer-owner">
+            {% if site.github_username %}
+            <a style="margin-right: 10px" href="https://github.com/{{ site.github_username }}">
+              <i class="fa fa-github"></i> Github
+            </a>
+            {% endif %}
+            {% if site.linkedin_username %}
+            <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+              <i class="fa fa-linkedin"></i> Linkedin
+            </a>
+            {% endif %}
+          </span>
         <span class="site-footer-credits">Pengyao Chen © 2017</span>
       </footer>
     </section>

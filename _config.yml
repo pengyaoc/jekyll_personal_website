@@ -16,16 +16,18 @@
 title: Pengyao Chen
 email: pengyaoc@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Code Monkey, Traveller and Tennis Player
+  Software Engineer, Traveller and Tennis Player
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://pengyaochen.com.s3-website-us-west-2.amazonaws.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: pengyaoc
 github_username:  pengyaoc
+linkedin_username: pengyao
 
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman
 permalink: '/:title/'
+plugins_dir: [font-awesome-less]
 gems:
   - jekyll-feed
   - jekyll-paginate
